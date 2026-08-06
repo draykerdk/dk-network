@@ -1,12 +1,37 @@
-# DK docs 
-[Português](./README.PT.md) | [Español](./README.ES.md) | English
+The Drayker network is built on two networks: a main network, and a test / interaction network with three layers. Other networks can take part in resolving it — as long as the requirements of the system architecture are preserved.
 
+## The requirements
 
+These are the published requirements of the network, and they come before any implementation:
 
+- Protocol compatible with [Living Cryptography](https://lc.drayker.org)
+- Modular and evolutionary protocol
+- Intelligent interconnection
+- Separation of layers and subnetworks
+- Distributed and fault-tolerant
+- Offline adaptability
+- DFM architecture
 
-Docs Dk network 
+Further requirements are specified in the Initial Network Architecture.
 
-All proposed resolutions presented here are solutions to the requirements of Dk and Drayker platform and system, only those requirements are final. These motions for resolutions illustrate what should be done, but the definitive architecture will be structured around optimal solutions that are proposed and developed with metaprogramming intelligent algorithms and research organized through DFMP and other methods.
+## Role in the system
 
+Dk Network carries the connections between the [Dk](https://dk.drayker.org) components, the applications built on them, and any participating network. Distribution, fault tolerance and offline adaptability are stated as design requirements rather than added later — a network that only works while everything is reachable is not the network this ecosystem needs.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+## State of this documentation
+
+The requirements are written down. **The Initial Network Architecture referred to above is not published**, which means the most consequential document of this layer is currently a reference to itself. Recovering or rewriting it is open work.
+
+All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final; the definitive architecture is expected to come from optimal solutions developed through research organized via [DFMP](https://dfmp.drayker.org).
+
+## Contributing
+
+Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+
+Related: [`bsdk`](https://bsdk.drayker.org) · [`living-cryptography`](https://lc.drayker.org) · [`dk`](https://dk.drayker.org)
+
+Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — both currently behind this English version.
+
+---
+
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
