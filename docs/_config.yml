@@ -2,16 +2,22 @@
 # Source: https://github.com/draykerdk/drayker-theme
 remote_theme: draykerdk/drayker-theme
 
+# Set explicitly: GitHub Pages derives site.url without TLS when the certificate is
+# terminated upstream, which leaves absolute URLs in meta tags on http. Everything the
+# sitemap and the social cards emit has to be the canonical https address.
+url: "https://dknetwork.drayker.org"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-optional-front-matter
+  - jekyll-sitemap
 
-title: Dk Network
-description: The distributed network beneath the ecosystem, and the requirements it has to preserve.
+title: "Dk Network"
+description: "The distributed network beneath the ecosystem, and the requirements it has to preserve."
 
-dk_kicker: Network layer
-dk_subdomain: dknetwork.drayker.org
-dk_repo: https://github.com/draykerdk/dk-network
+dk_kicker: "Network layer"
+dk_subdomain: "dknetwork.drayker.org"
+dk_repo: "https://github.com/draykerdk/dk-network"
 
 defaults:
   - scope:
