@@ -1,36 +1,9 @@
-# Dk-Network
-The Drayker network is based on 2 networks. main network and test / interaction network with 3 layers.
+# Dk Network
 
-DK Network
+Two networks — a main network and a test / interaction network with three layers — and the requirements any implementation has to preserve.
 
-The Drayker network can rely on several other networks in its resolution, but the requirements of the system architecture must be preserved.
+**Documentation: [dknetwork.drayker.org](https://dknetwork.drayker.org)** — published by GitHub Pages from [`docs/`](./docs), which is where the material for this component lives.
 
-Protocol compatible with live cryptography
+Part of the Drayker ecosystem. Start at the [volunteers portal](https://drayker.org) for the map, or go straight to the [open functions](https://drayker.org/#org/fn) if you are looking for something to work on.
 
-Modular and evolutionary protocol
-
-Inter intelligent connection
-
-Separation of layers and subnetworks
-
-Distributed and fault-tolerant
-
-Offline Adaptability
-
-Architecture DFM
-
-Other requirements are specified in the Initial Network Architecture.
-
-
-PT - BR - L
-
-A rede da Drayker pode se basear em várias outras redes em sua resolução, porém os requisitos da arquitetura do sistema devem ser preservados. 
-
-Protocolo compatível com criptografia viva;
-Protocolo modular e evolutivo;
-Inter conexão inteligente;
-Separação de camadas e sub redes; 
-Distribuída e resistente a falhas;
-Adaptabilidade Offline; 
-Arquitetura DFM end
-Outros requisitos são especificados na arquitetura inicial de rede. 
+Drayker is a volunteer, non-profit organization, organized through [DFMP](https://dfmp.drayker.org), with resources governed by the [DAF](https://daf.drayker.org).
