@@ -1,0 +1,32 @@
+schema_version: 1
+component:
+  id: dk-network
+  name: Dk Network
+  layer: NETWORK
+  artifact_type: architecture
+  problem: Define the network properties required for Dk components to communicate across public and interaction layers.
+  scope:
+    - Public network requirements and proposed layer boundaries.
+    - Main-network and test or interaction-network concepts.
+  non_scope:
+    - A deployed peer-to-peer network.
+    - A finished initial network architecture or protocol implementation.
+  dependencies:
+    - dk
+    - living-cryptography
+  implementation:
+    level: none
+    scope: Network requirements are documented, but no running network or complete implementation is published here.
+    evidence:
+      - type: document
+        ref: docs/README.md
+  risks:
+    - Requirements may be presented as an available network.
+    - Security assumptions remain dependent on unfinished cryptography research.
+  contributions:
+    availability: open
+    entrypoint: https://github.com/draykerdk/dk-network/issues
+  source_of_truth:
+    repository: https://github.com/draykerdk/dk-network
+    path: docs/README.md
+  last_reviewed: "2026-08-10"
