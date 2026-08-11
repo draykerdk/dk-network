@@ -1,5 +1,11 @@
 The Drayker network is built on two networks: a main network, and a test / interaction network with three layers. Other networks can take part in resolving it — as long as the requirements of the system architecture are preserved.
 
+## Why this exists
+
+Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. The network is what that distributed intelligence actually runs on, and who is allowed to hold a piece of it.
+
+The argument in full is on the [manifesto](https://drayker.org/manifesto/); the [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
+
 ## The requirements
 
 These are the published requirements of the network, and they come before any implementation:
@@ -26,7 +32,7 @@ All proposed resolutions presented here are solutions to the requirements of Dk 
 
 ## Contributing
 
-Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/fn/).
 
 Related: [`bsdk`](https://bsdk.drayker.org) · [`living-cryptography`](https://lc.drayker.org) · [`dk`](https://dk.drayker.org)
 
