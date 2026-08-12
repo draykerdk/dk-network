@@ -20,9 +20,13 @@ These are the published requirements of the network, and they come before any im
 
 Further requirements are specified in the Initial Network Architecture.
 
-## Role in the system
+## How it fits the whole
 
-Dk Network carries the connections between the [Dk](https://dk.drayker.org) components, the applications built on them, and any participating network. Distribution, fault tolerance and offline adaptability are stated as design requirements rather than added later. A network that only works while everything is reachable is not the network this ecosystem needs.
+The network is the ground everything else stands on — and the reason none of it needs a data centre. Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest; the network is what that distributed intelligence actually runs on, and who is allowed to hold a piece of it.
+
+[Dk](https://dk.drayker.org) rides on it: the intelligence distributes work across the network, and uses its excess processing and storage as a second layer. The tunnels between the parts are [Living Cryptography](https://lc.drayker.org). Devices join through [OSDK](https://osdk.drayker.org). [Distributed support](https://support.drayker.org) is the physical side of a network with no data centre — machines and people holding it up. And [stations and embassies](https://stations.drayker.org) are where the same network touches the ground, places where volunteers meet, work and travel between.
+
+Because the network is the floor of the ecosystem, its requirements come before any implementation: protocol compatible with Living Cryptography, modularity, intelligent interconnection, separation of layers, fault tolerance and offline adaptability. A network that only works while everything is reachable is not the network this ecosystem needs.
 
 ## State of this documentation
 
