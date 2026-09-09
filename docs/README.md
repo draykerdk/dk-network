@@ -1,47 +1,39 @@
-The Drayker network is built on two networks: a main network, and a test / interaction network with three layers. Other networks can take part in resolving it, as long as the requirements of the system architecture are preserved.
+# Dk Network
 
-## Why this exists
+> Local devices, regional nodes and shared computing clusters.
 
-Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. The network is what that distributed intelligence actually runs on, and who is allowed to hold a piece of it.
+Dk Network proposes the infrastructure through which personal devices, community nodes and computing clusters cooperate. Work is placed according to its privacy requirements, urgency and hardware needs.
 
-The argument in full is on the [manifesto](https://drayker.org/manifesto/). The [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
+Personal computing and large scientific workloads need different resources. Depending on a single operator also concentrates decisions about access, continuity and cost.
 
-## The requirements
+## Three computing tiers
 
-These are the published requirements of the network, and they come before any implementation:
+**Local devices and edge computing.** Phones, laptops and nearby devices provide the first place for personal processing. The design prioritises private context and essential functions that can continue without a network connection. The functions available offline depend on the model, memory, power and data the device can support. Sending a task elsewhere requires an explicit boundary for what may leave this context.
 
-- Protocol compatible with [Living Cryptography](https://lc.drayker.org)
-- Modular and evolutionary protocol
-- Intelligent interconnection
-- Separation of layers and subnetworks
-- Distributed and fault-tolerant
-- Offline adaptability
-- DFM architecture
+**Regional nodes and community hubs.** Intermediate infrastructure can relay messages, cache authorised material and coordinate local workloads. This tier is intended to improve continuity and reduce unnecessary long-distance communication. Routing during partitions, later synchronisation and protection against information leakage require concrete protocols and testing.
 
-Further requirements are specified in the Initial Network Architecture.
+**Shared computing clusters.** Large training runs, simulations and other intensive workloads may need specialised servers and accelerators. The design includes this infrastructure through independent operators and public interfaces. Workload placement must account for permissions, cost, available capacity and how the result will be checked.
 
-## How it fits the whole
+These tiers describe different computing needs. They do not imply that every device can execute every task or that distributing infrastructure automatically establishes privacy or resilience.
 
-The network is the ground everything else stands on — and the reason none of it needs a data centre. Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest; the network is what that distributed intelligence actually runs on, and who is allowed to hold a piece of it.
+## Two interaction networks
 
-[Dk](https://dk.drayker.org) rides on it: the intelligence distributes work across the network, and uses its excess processing and storage as a second layer. The tunnels between the parts are [Living Cryptography](https://lc.drayker.org). Devices join through [OSDK](https://osdk.drayker.org). [Distributed support](https://support.drayker.org) is the physical side of a network with no data centre — machines and people holding it up. And [stations and embassies](https://stations.drayker.org) are where the same network touches the ground, places where volunteers meet, work and travel between.
+The proposal also distinguishes an authenticated main network from a public interaction and testing network. This is a separate distinction from the three computing tiers: it concerns access and trust boundaries rather than hardware size.
 
-Because the network is the floor of the ecosystem, its requirements come before any implementation: protocol compatible with Living Cryptography, modularity, intelligent interconnection, separation of layers, fault tolerance and offline adaptability. A network that only works while everything is reachable is not the network this ecosystem needs.
+The main network would carry actions requiring authenticated participation and stronger verification. The public interaction network would offer a lighter entry point for queries, discovery and experimentation. The boundary between them needs rules for admission, permissions, resource limits and escalation. Rate limits and verification mechanisms should be evaluated against abuse and their cost to legitimate participants.
 
-## State of this documentation
+## One workload across the layers
 
-The requirements are written down. **The Initial Network Architecture referred to above is not published**, which means the most consequential document of this layer is currently a reference to itself. Recovering or rewriting it is open work.
+A member could ask a personal agent to help plan a community research project. Private notes would remain within the member's authorised context. A regional node could coordinate shared project material, while a separately authorised simulation runs on a cluster. The resulting evidence would return with enough provenance for the project to evaluate it. This illustrates the intended architecture; it is not a description of a deployed network.
 
-All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final. The definitive architecture is expected to come from optimal solutions developed through research organized via [DFMP](https://dfmp.drayker.org).
+## Relationships and open work
 
-## Contributing
+[Dk Personal](https://personal.drayker.org) defines the personal-agent boundary. [Distributed Support](https://support.drayker.org) concerns the material capacity needed to operate devices and infrastructure. [Living Cryptography](https://lc.drayker.org) investigates authentication and security mechanisms, while [Value Unit](https://value.drayker.org) develops resource accounting.
 
-Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/fn/).
+The next specifications need to make workload placement, authorisation, result verification and recovery measurable. Useful first experiments include a disconnected local task, a regional partition followed by synchronisation, and a cluster task whose output is independently checked. Federated learning requires its own privacy analysis; exchanging model updates alone does not establish anonymity.
 
-Related: [`bsdk`](https://bsdk.drayker.org) · [`living-cryptography`](https://lc.drayker.org) · [`dk`](https://dk.drayker.org)
+## Participation and sources
 
-Other languages: [Português](./README.PT.md) · [Español](./README.ES.md). Both currently behind this English version.
+This repository develops a proposal through public documentation and review. Read the [contribution guide](https://github.com/draykerdk/.github/blob/master/CONTRIBUTING.md) and [current governance](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md), or find a bounded contribution on the [open-functions board](https://drayker.org/fn/).
 
----
-
-Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Part of [Drayker](https://drayker.org). Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
