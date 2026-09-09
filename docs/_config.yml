@@ -13,7 +13,7 @@ plugins:
   - jekyll-sitemap
 
 title: "Dk Network"
-description: "The distributed network beneath the ecosystem, and the requirements it has to preserve."
+description: "Local devices, regional nodes and shared computing clusters. Dk Network proposes the infrastructure through which personal devices, community nodes and computing clusters cooperate. Work is placed according to its privacy requirements, urgency and hardware needs."
 
 dk_kicker: "Network layer"
 dk_subdomain: "dknetwork.drayker.org"

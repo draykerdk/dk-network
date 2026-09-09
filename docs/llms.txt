@@ -1,6 +1,6 @@
 # Dk Network
 
-> The distributed network beneath the ecosystem, and the requirements it has to preserve.
+> Dk Network proposes the infrastructure through which personal devices, community nodes and computing clusters cooperate. Work is placed according to its privacy requirements, urgency and hardware needs.
 
 Dk Network is a public component of Drayker. Drayker is the system; Dk is its intelligence; Dk Network is its network.
 
