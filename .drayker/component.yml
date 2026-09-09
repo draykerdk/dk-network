@@ -19,7 +19,7 @@ component:
     - living-cryptography
     - distributed-support
   implementation:
-    level: prototype
+    level: none
     scope: The heterogeneous 3-tier architecture and network plane specifications are documented; implementation of routing and peer discovery tooling is in active R&D.
     evidence:
       - type: document
