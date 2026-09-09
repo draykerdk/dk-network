@@ -4,29 +4,33 @@ component:
   name: Dk Network
   layer: NETWORK
   artifact_type: architecture
-  problem: Define the network properties required for Dk components to communicate across public and interaction layers.
+  problem: Define the heterogeneous layered computing architecture (edge, regional mesh hubs, and clustered high-performance servers) that powers sovereign AI without cloud monopoly or surveillance.
   scope:
-    - Public network requirements and proposed layer boundaries.
-    - Main-network and test or interaction-network concepts.
+    - Heterogeneous 3-tier computing topology (edge/local devices, regional mesh hubs, and federated heavy compute clusters).
+    - Main authenticated network and secondary public interaction network protocols.
+    - Partition-tolerant routing, offline-first execution, and depersonalized federated aggregation.
+    - Redundancy and fault-detection mechanisms for distributed workloads.
   non_scope:
-    - A deployed peer-to-peer network.
-    - A finished initial network architecture or protocol implementation.
+    - A naive claim that advanced AI operates without servers or clustered hardware.
+    - A centralized commercial cloud service owned by Drayker.
+    - A finished, fully deployed global P2P network today.
   dependencies:
     - dk
     - living-cryptography
+    - distributed-support
   implementation:
-    level: none
-    scope: Network requirements are documented, but no running network or complete implementation is published here.
+    level: prototype
+    scope: The heterogeneous 3-tier architecture and network plane specifications are documented; implementation of routing and peer discovery tooling is in active R&D.
     evidence:
       - type: document
-        ref: docs/README.md
+        ref: README.md
   risks:
-    - Requirements may be presented as an available network.
-    - Security assumptions remain dependent on unfinished cryptography research.
+    - Underestimating bandwidth and compute requirements for large-scale training workloads.
+    - Latency overhead across high-redundancy consensus checks.
   contributions:
     availability: open
     entrypoint: https://github.com/draykerdk/dk-network/issues
   source_of_truth:
     repository: https://github.com/draykerdk/dk-network
-    path: docs/README.md
-  last_reviewed: "2026-09-05"
+    path: README.md
+  last_reviewed: "2026-09-08"
