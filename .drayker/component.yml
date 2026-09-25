@@ -10,6 +10,7 @@ component:
     - Main authenticated network and secondary public interaction network protocols.
     - Partition-tolerant routing, offline-first execution, and depersonalized federated aggregation.
     - Redundancy and fault-detection mechanisms for distributed workloads.
+    - Replication and propagation-based verification of the veto chain specified in UID.
   non_scope:
     - A naive claim that advanced AI operates without servers or clustered hardware.
     - A centralized commercial cloud service owned by Drayker.

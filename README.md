@@ -26,6 +26,12 @@ The main network would carry actions requiring authenticated participation and s
 
 A member could ask a personal agent to help plan a community research project. Private notes would remain within the member's authorised context. A regional node could coordinate shared project material, while a separately authorised simulation runs on a cluster. The resulting evidence would return with enough provenance for the project to evaluate it. This illustrates the intended architecture; it is not a description of a deployed network.
 
+## Carrying the veto chain
+
+The network is also where members' constitutional authority has to survive. The [veto chain](https://uid.drayker.org) specified in UID — signed, hash-linked entries for vetoes and their grounds, revocations, ratification signatures, triage outcomes and panel orders — is replicated across nodes rather than held by any operator. An entry is accepted by propagation: independent nodes on the route, at least three, check its signature and its link to the previous entry before relaying it. A device can sign while disconnected and propagate later, and conflicting histories are surfaced for human review instead of being settled by whoever controls more nodes. The same addressing that identifies functions and modules lets a veto point at the exact decision it contests, so any node can detect an action executed against a valid veto.
+
+A useful experiment is small: a veto signed offline on one device, a partition, reconnection, and an execution layer that refuses the contested action once the entry arrives.
+
 ## Relationships and open work
 
 [Dk Personal](https://personal.drayker.org) defines the personal-agent boundary. [Distributed Support](https://support.drayker.org) concerns the material capacity needed to operate devices and infrastructure. [Living Cryptography](https://lc.drayker.org) investigates authentication and security mechanisms, while [Value Unit](https://value.drayker.org) develops resource accounting.
