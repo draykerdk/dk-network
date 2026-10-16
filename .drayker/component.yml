@@ -21,7 +21,7 @@ component:
     - distributed-support
   implementation:
     level: none
-    scope: The heterogeneous 3-tier architecture and network plane specifications are documented; implementation of routing and peer discovery tooling is in active R&D.
+    scope: The heterogeneous 3-tier architecture and network plane specifications are documented; no code for routing or peer discovery exists yet.
     evidence:
       - type: document
         ref: README.md
@@ -34,4 +34,4 @@ component:
   source_of_truth:
     repository: https://github.com/draykerdk/dk-network
     path: README.md
-  last_reviewed: "2026-09-08"
+  last_reviewed: "2026-10-16"
