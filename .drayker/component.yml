@@ -6,7 +6,10 @@ component:
   artifact_type: architecture
   problem: Define the heterogeneous layered computing architecture (edge, regional mesh hubs, and clustered high-performance servers) that powers sovereign AI without cloud monopoly or surveillance.
   scope:
-    - Heterogeneous 3-tier computing topology (edge/local devices, regional mesh hubs, and federated heavy compute clusters).
+    - Heterogeneous 3-tier computing topology (edge/local devices, regional mesh hubs, and dedicated clusters and data centres coordinated as shared resources).
+    - "Layered heterogeneous computing coordinated by DFM: personal devices, volunteer nodes, local servers, special computers, dedicated clusters and data centres, all tied to members or to projects formed by members."
+    - "Data leaving a device travels fragmented and encrypted, unreadable to the operator of the machine that holds it."
+    - "Compartmentalisation, detection of anomalous behaviour and fault tolerance as requirements."
     - Main authenticated network and secondary public interaction network protocols.
     - Partition-tolerant routing, offline-first execution, and depersonalized federated aggregation.
     - Redundancy and fault-detection mechanisms for distributed workloads.
@@ -34,4 +37,4 @@ component:
   source_of_truth:
     repository: https://github.com/draykerdk/dk-network
     path: README.md
-  last_reviewed: "2026-10-16"
+  last_reviewed: "2026-10-19"
