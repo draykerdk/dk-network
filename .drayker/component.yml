@@ -14,6 +14,13 @@ component:
     - Partition-tolerant routing, offline-first execution, and depersonalized federated aggregation.
     - Redundancy and fault-detection mechanisms for distributed workloads.
     - Replication and propagation-based verification of the veto chain specified in UID.
+    - "Original layering: seven layers of a node's software and three layers of the main network, separate from the hardware tiers."
+    - "Node roles (cache, app, app full and full nodes), with nodes moving between roles."
+    - "Each structure held at no fewer than three geographically separated points, with results compared to remove noise, faults and fraud."
+    - "Local mesh without the internet, and reintegration of a network that stayed apart."
+    - "Functions moving to the edge through use, and the testing network as the path by which functions and modules change."
+    - "Continuous internal attack with regeneration, and audit of nodes that return faults."
+    - "Stages: today, version 0.1, version 1.0 and after."
   non_scope:
     - A naive claim that advanced AI operates without servers or clustered hardware.
     - A centralized commercial cloud service owned by Drayker.
