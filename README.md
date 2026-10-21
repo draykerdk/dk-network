@@ -61,7 +61,7 @@ In the design, each structure of information is held at no fewer than three geog
 
 ## The body Dk runs on
 
-Dk Global has no server of its own. Its memory is spread across the network, and no machine holds the whole of it. It is designed to recover from failures, rebuilding from full nodes and the fragments that remain. Some nodes are volunteer nodes that a member or a project runs on their own account, outside the system's funding and control. While the first architectural version is being built, every node can refuse a task, isolate itself or disconnect, and an intelligence running on so many machines it does not control alone cannot impose anything on them without it showing. Once version 1.0 is fully deployed, a node can still leave, but the whole can no longer be switched off; the justified veto, carried by the [veto chain](https://uid.drayker.org/#the-veto-chain), becomes the switch.
+The global Dk has no server of its own. Its memory is spread across the network, and no machine holds the whole of it. It is designed to recover from failures, rebuilding from full nodes and the fragments that remain. Some nodes are volunteer nodes that a member or a project runs on their own account, outside the system's funding and control. While the first architectural version is being built, every node can refuse a task, isolate itself or disconnect, and an intelligence running on so many machines it does not control alone cannot impose anything on them without it showing. Once version 1.0 is fully deployed, a node can still leave, but the whole can no longer be switched off; the justified veto, carried by the [veto chain](https://uid.drayker.org/#the-veto-chain), becomes the switch.
 
 ## Two interaction networks
 
@@ -75,7 +75,7 @@ The testing network is also how the network changes. A new or improved function 
 
 ## One workload across the layers
 
-A member could ask a personal agent to help plan a community research project. Private notes would remain within the member's authorised context. A regional node could coordinate shared project material, while a separately authorised simulation runs on a cluster. The resulting evidence would return with enough provenance for the project to evaluate it. This illustrates the intended architecture; it is not a description of a deployed network.
+A member could ask their personal Dk to help plan a community research project. Private notes would remain within the member's authorised context. A regional node could coordinate shared project material, while a separately authorised simulation runs on a cluster. The resulting evidence would return with enough provenance for the project to evaluate it. This illustrates the intended architecture; it is not a description of a deployed network.
 
 ## Carrying the veto chain
 
@@ -91,13 +91,13 @@ The stages follow Drayker's [direction](https://drayker.org/direction/), where e
 
 **Version 0.1.** A test network built by adapting existing distributed-computing protocols to the needs of the first platform, running on volunteers' computers, on devices that use Drayker applications and on idle servers offered by members. If it evolves far enough to meet the requirements, it can serve as the test network of the final architecture or even become the main network. Shared computing sites are added where capacity falls short.
 
-**Version 1.0 (2030, already an ASI).** The main network carries Dk Global. Part of the network's first versions is built by the swarm of agents that [Meta DFM](https://metadfmp.drayker.org) organises, and the network keeps growing through its own physical nodes and infrastructure agreements.
+**Version 1.0 (2030, already an ASI).** The main network carries the global Dk. Part of the network's first versions is built by the swarm of agents that [Meta DFM](https://metadfmp.drayker.org) organises, and the network keeps growing through its own physical nodes and infrastructure agreements.
 
 **After 1.0.** Quantum nodes join as special nodes for functions that benefit from them. The network does not depend on them.
 
 ## Relationships and open work
 
-[Dk Personal](https://personal.drayker.org) defines the personal-agent boundary. [Distributed Support](https://support.drayker.org) concerns the material capacity needed to operate devices and infrastructure. [Living Cryptography](https://lc.drayker.org) investigates authentication and security mechanisms, while [Value Unit](https://value.drayker.org) develops resource accounting.
+[Personal Dk](https://personal.drayker.org) defines the boundary of the personal Dk. [Distributed Support](https://support.drayker.org) concerns the material capacity needed to operate devices and infrastructure. [Living Cryptography](https://lc.drayker.org) investigates authentication and security mechanisms, while [Value Unit](https://value.drayker.org) develops resource accounting.
 
 Security is a property of the network, not a service beside it: it decides which information can be reached, which action can run, how much capacity can be committed, how much autonomy an agent has and when a decision must escalate to human review. It starts by distributing what is critical, so that no isolated point brings the rest down, and by giving each part only the access it needs, for as long as it needs it, always auditably, through the scoped, time-limited and revocable mandates and the [least-privilege sequence](https://uid.drayker.org/#least-privilege-and-audit) specified in [UID](https://uid.drayker.org). No Dk process needs permanent access to everything, and personal privacy and operational secrecy are different problems that each need their own boundary.
 
