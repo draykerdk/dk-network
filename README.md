@@ -1,8 +1,8 @@
 # Dk Network
 
-> The distributed network substrate Dk runs on, with distributed communication, processing and storage across machines that belong to members.
+> The distributed network substrate on which Dk operates, with distributed communication, processing and storage across machines that belong to members.
 
-Dk Network proposes the infrastructure through which personal devices, community nodes and computing clusters cooperate. Work is placed according to its privacy requirements, urgency, connectivity and hardware needs.
+Dk Network links the members' devices and computers into a common substrate. It proposes the infrastructure through which personal devices, community nodes and computing clusters cooperate. Work is placed according to its privacy requirements, urgency, connectivity and hardware needs.
 
 Personal computing and large scientific workloads need different resources. Depending on a single operator also concentrates decisions about access, continuity and cost.
 
@@ -105,7 +105,7 @@ The next specifications need to make workload placement, authorisation, result v
 
 In the design, the network's own evolutionary algorithms attack it continuously. When an attack succeeds, a regeneration mechanism fixes the weakness, tests the fix on the testing network and propagates it, so the network hardens against failures nobody predicted. A node that returns faults is audited, a node that attacks is investigated and can be removed, and nodes without verified identity need extra validation points before they contribute.
 
-For federated learning, the design keeps each experience where it was lived. What circulates, with authorisation, are unnamed patterns: reasoning, symbols, ontologies and public knowledge, never the biography. The system sees only the sum of many contributions, never one person's, and each pattern is weighed by what it would let someone guess, since even an unnamed pattern can point to someone; a pattern gains weight when it holds in independent contexts. These protections are checked in results, not only in the design, since exchanging model updates alone does not establish anonymity.
+Anonymous federated learning is a design requirement for combining distributed learning with the protection of identity and personal context. Each experience stays where it was lived, and what circulates, with authorisation, are nameless patterns: reasoning, symbols, ontologies and public knowledge, never the biography. The system sees only the sum of many contributions, never one person's, and each pattern is weighed by what it would let someone guess, since even a nameless pattern can point to someone; a pattern gains weight when it holds in independent contexts. These protections are checked in results, not only in the design, since exchanging model updates alone does not establish anonymity.
 
 ## Participation and sources
 
